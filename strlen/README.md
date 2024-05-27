@@ -1,20 +1,5 @@
 I wanted to create my own versions of common functions this is helpful for both interview practice and just in general coding practice.
 
-There will be two versions an unsafe verison and super safe version that does extra checking.
-
-Source https://cplusplus.com/reference/cstring/strlen/
+There will be three versions an unsafe verison and super safe version that does extra checking, and a 32 bit asm version.
 
 size_t strlen ( const char * str );
-
-Get string length
-Returns the length of the C string str.
-
-The length of a C string is determined by the terminating null-character: A C string is as long as the number of characters between the beginning of the string and the terminating null character (without including the terminating null character itself).
-
-This should not be confused with the size of the array that holds the string. For example:
-
-char mystr[100]="test string";
-
-defines an array of characters with a size of 100 chars, but the C string with which mystr has been initialized has a length of only 11 characters. Therefore, while sizeof(mystr) evaluates to 100, strlen(mystr) returns 11.
-
-In C++, char_traits::length implements the same behavior.
