@@ -1,4 +1,6 @@
-STRLEN
+I wanted to create my own versions of common functions this is helpful for both interview practice and just in general coding practice.
+
+There will be two versions an unsafe verison and super safe version that does extra checking.
 
 Source https://cplusplus.com/reference/cstring/strlen/
 
